@@ -21,18 +21,18 @@ left (right)   move to previous (next) byte
 up (down)      move to previous (next) line
 <              move to beginning of line
 >              move to end of line
-page up        move 1 page up
-page down      move 1 page down
-home           move to beginning of file
-end            move to end of file
+!              move 1 page up
+#              move 1 page down
+(              move to beginning of file
+)              move to end of file
 h              display help screen
 j              jump to offset
 n (w)          search for byte (string)
 l              fill range with byte
-tab	       toggle between hex and ascii editing modes
+@	       toggle between hex and ascii editing modes
 u              undo
 s              save file
-q              quit
+backspace      quit
 
 See heme(1) for complete user manual.
 
